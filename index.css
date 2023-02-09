@@ -108,15 +108,30 @@ Second Container Starts*/
 
 /*Second Ends-Third Starts*/
 
+.third {
+  background-color: #4B0082;
+}
+
 .pics2 {
   width: 250px;
-  height: auto;
+  height: 250px;
+  padding: 0px;
+  margin: 0;
+}
+.box {
+  max-width: 250px;
+  border-radius: 20px;
+  background-color: black;
 }
 
 .third,
 .box,
 .pics2 {
-  border: 1px dotted skyblue;
+}
+
+.pics2 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .thirdh {
@@ -128,14 +143,34 @@ Second Container Starts*/
 .box-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 70px;
   flex-wrap: wrap;
 }
 
 .box {
-  max-width: 250px;
+
 }
 
-.thirdtext {
+
+.name {
   text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+
+.thirdtext {
+  padding: 3px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.thirdh {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  padding: 60px 0;
 }
