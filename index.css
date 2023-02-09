@@ -9,11 +9,13 @@ a {
   color: #f9faf8;
 }
 
-.logo, .secondl {
+.logo,
+.secondl {
   margin-left: 150px;
 }
 
-.right-h, .secondr {
+.right-h,
+.secondr {
   margin-right: 150px;
 }
 
@@ -51,7 +53,6 @@ Second Container Starts*/
 }
 
 .second {
-  border: 1px solid red;
   display: flex;
   background-image: url("./images/gojotest.jpg");
   background-attachment: fixed;
@@ -61,55 +62,52 @@ Second Container Starts*/
 }
 
 .secondl {
-
-    text-align: left;
-    /*background-color: rgba(0,0,0,.5);*/
-    margin-top: 60px;
-    margin-bottom: 60px;
-
-
+  text-align: left;
+  /*background-color: rgba(0,0,0,.5);*/
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .secondr {
 }
 
 .schooltitle {
-    font-size: 48px;
-    font-weight:900;
-    margin-right: 30px;
-    margin-left: 10px;
-    color: white;
+  font-size: 48px;
+  font-weight: 900;
+  margin-right: 30px;
+  margin-left: 10px;
+  color: white;
 }
 
 .schooltxt {
-    font-size: 30px;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #f9faf8;
-    margin-left: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f9faf8;
+  margin-left: 10px;
 }
 
 .button {
-    color: white;
-    background-color: #ff00bf;
-    padding: 5px 15px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 900;
+  color: white;
+  background-color: #ff00bf;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .test {
-    background-color: rgba(0,0,0,.5);
-    margin-right: 120px;
-    margin-top: 60px;
-    border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 120px;
+  margin-top: 60px;
+  border-radius: 10px;
 }
 
 /*Second Ends-Third Starts*/
 
 .third {
-  background-color: #4B0082;
+  background-color: #4b0082;
 }
 
 .pics2 {
@@ -122,11 +120,6 @@ Second Container Starts*/
   max-width: 250px;
   border-radius: 20px;
   background-color: black;
-}
-
-.third,
-.box,
-.pics2 {
 }
 
 .pics2 {
@@ -145,12 +138,11 @@ Second Container Starts*/
   justify-content: center;
   gap: 70px;
   flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 
 .box {
-
 }
-
 
 .name {
   text-align: center;
@@ -159,7 +151,6 @@ Second Container Starts*/
   color: white;
   padding-bottom: 5px;
 }
-
 
 .thirdtext {
   padding: 3px;
@@ -173,4 +164,36 @@ Second Container Starts*/
   font-weight: 900;
   color: white;
   padding: 60px 0;
+}
+
+/*Third Ends-Fourth Starts*/
+
+.fourth {
+  height: 1100px;
+  background-image: url(./images/gojogeto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthc {
+  margin-left: 450px;
+  margin-right: 350px;
+}
+
+.quote {
+  color: white;
+  font-size: 48px;
+
+}
+
+.quoteby {
+  color: white;
+  font-size: 36px;
+  text-align: end;
+  padding-right: 100px;
+  font-weight: 900;
 }
