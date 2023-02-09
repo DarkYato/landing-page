@@ -67,10 +67,10 @@ Second Container Starts*/
     margin-top: 60px;
     margin-bottom: 60px;
 
+
 }
 
 .secondr {
-    display: flex;
 }
 
 .schooltitle {
@@ -104,4 +104,38 @@ Second Container Starts*/
     margin-right: 120px;
     margin-top: 60px;
     border-radius: 10px;
+}
+
+/*Second Ends-Third Starts*/
+
+.pics2 {
+  width: 150px;
+  height: auto;
+}
+
+.third,
+.box,
+.pics2 {
+  border: 1px dotted skyblue;
+}
+
+.thirdh {
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  max-width: 150px;
+}
+
+.thirdtext {
+  text-align: center;
 }
