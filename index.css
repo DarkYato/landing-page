@@ -264,3 +264,16 @@ Second Container Starts*/
   height: 80px;
   width: 200px;
 }
+
+/*Footer Starts*/
+
+.footer {
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  text-align: center;
+  background-color: #1f2937;
+  font-weight: 700;
+}
