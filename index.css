@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -124,11 +127,6 @@ Second Container Starts*/
   border-radius: 20px;
   background-color: black;
 }
-.thirdh {
-  text-align: center;
-  font-weight: 900;
-  font-size: 20px;
-}
 
 .box-container {
   display: flex;
@@ -158,6 +156,7 @@ Second Container Starts*/
   font-weight: 900;
   color: white;
   padding: 60px 0;
+  text-align: center;
 }
 
 .itadori, .megu, .nobara, .gojo {
